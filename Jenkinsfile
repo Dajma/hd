@@ -6,7 +6,7 @@ pipeline {
    stages {
 		   stage('Remove old versions of charts') {
                 steps {
-					  sh "cleanup-charts.py"
+					  sh "./cleanup-charts.py"
 
 				}
 			}   
