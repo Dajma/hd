@@ -9,7 +9,7 @@ print(JENKINS_URL)
 
 SITE = "192.168.2.102" if  JENKINS_URL == "https://jenkins.dev-gcp.homedepot.ca/" else "https://jenkins.qa-gcp.homedepot.ca/"
 print(SITE)
-exit()
+
 # only change below two lines
 #SITE="ec2-3-21-245-10.us-east-2.compute.amazonaws.com"
 #SITE="192.168.2.102"
